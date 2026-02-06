@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/suvitharamesh",
-  linkedin: "https://www.linkedin.com/in/suvitharamesh/",
-  gmail: "suviremsh@gmail.com",
+  github: "https://github.com/SuvithaaaaR",
+  linkedin: "https://www.linkedin.com/in/suvitha-ramesh",
+  gmail: "suviiiramesh@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -123,7 +123,7 @@ const educationInfo = {
     },
     {
       schoolName: "Malar Matric Higher Secondary School",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: null,
       subHeader: "Higher Secondary Certificate",
       duration: "2019 - 2023",
       desc: "Percentage: 88%",
@@ -313,7 +313,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -326,7 +326,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -342,8 +342,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-6379407335",
-  email_address: "suviremsh@gmail.com"
+  number: "+91 6379647335",
+  email_address: "suviiiramesh@gmail.com"
 };
 
 // Twitter Section
