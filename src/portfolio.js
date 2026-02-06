@@ -45,12 +45,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE DEVELOPER WITH EXPERTISE IN FULL-STACK AND AI-DRIVEN APPLICATIONS",
+  subTitle:
+    "SOFTWARE DEVELOPER WITH EXPERTISE IN FULL-STACK AND AI-DRIVEN APPLICATIONS",
   skills: [
     emoji(
       "⚡ Build automation solutions and custom add-ons within Jira, Confluence, and Jira Service Management platforms"
     ),
-    emoji("⚡ Develop Flask-based AI systems for e-waste image classification with high model accuracy"),
+    emoji(
+      "⚡ Develop Flask-based AI systems for e-waste image classification with high model accuracy"
+    ),
     emoji(
       "⚡ Integration of API services and experienced in agile software development methodologies"
     ),
@@ -199,7 +202,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Retail Chain Inventory Tracker",
-      projectDesc: "A system to track and manage product stock in multiple retail stores with real-time updates and low stock alerts. Built with HTML, CSS, JavaScript, Python (Flask), SQLite, Git",
+      projectDesc:
+        "A system to track and manage product stock in multiple retail stores with real-time updates and low stock alerts. Built with HTML, CSS, JavaScript, Python (Flask), SQLite, Git",
       footerLink: [
         {
           name: "View Project",
@@ -210,7 +214,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Eco-Trace – Smart E-waste Classifier",
-      projectDesc: "A Flask-based AI system for e-waste image classification, achieving high model accuracy using OpenCV and scikit-learn. Technologies: Python, Flask, SQLite, OpenCV, NumPy, scikit-learn, HTML",
+      projectDesc:
+        "A Flask-based AI system for e-waste image classification, achieving high model accuracy using OpenCV and scikit-learn. Technologies: Python, Flask, SQLite, OpenCV, NumPy, scikit-learn, HTML",
       footerLink: [
         {
           name: "View Project",
@@ -227,8 +232,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle:
-    "Professional Certifications and Achievements",
+  subtitle: "Professional Certifications and Achievements",
 
   achievementsCards: [
     {
@@ -259,12 +263,11 @@ const achievementSection = {
     },
     {
       title: "Atlassian Certifications (ACA-900, ACP-620)",
-      subtitle: "Atlassian Certified Associate and Jira Cloud Administration certifications",
+      subtitle:
+        "Atlassian Certified Associate and Jira Cloud Administration certifications",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "Atlassian Logo",
-      footerLink: [
-        {name: "Certifications", url: ""}
-      ]
+      footerLink: [{name: "Certifications", url: ""}]
     }
   ],
   display: true // Set false to hide this section, defaults to true
